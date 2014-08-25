@@ -32,6 +32,49 @@ with Objective-C and Xcode!
 
 <http://vimeo.com/47249375>
 
+### My Minds Eye:
+
+It’s a well behaved collection of analog clocks! However...
+
+-   If you look closely at the analog faces some of the time’s shown
+    can’t really happen with a normal analog clock since the hour hand
+    moves partial distances between the hour marks according to the
+    number of minutes past the hour. So, we have to detune this
+    behavior.
+
+<!-- -->
+
+    Object: 
+     - animated analog clock, with 
+     - special detune control to not move hour hand due to minutes after
+        the hour (enable/disable) and
+     - time-set control: so the analog clock can animate from present position to 
+        a specific time.
+
+-   Next group’s of six analog clocks behave in concert to show a single
+    digit. So we’ve a Digit Controller which controls the behavior of 6
+    analog clocks to present a single numeric digit. Next each analog
+    clock in the 6 clock matrix goes to a different time so it can
+    represent its part of the digit. So, we need a table of times (one
+    for each of the six analog clocks) for each digit (0-9) that we want
+    to display. Lastly we need to be able to tell the digit controller
+    what digit to display.
+
+<!-- -->
+
+    Object: 
+     - Digit Controller - controls six analog clocks in 2x3 matrix with
+     - table of times, one for each clock, indexed by digit needing to be displayed.
+     - lastly, digit-set control: so the matrix can slew from present digit displayed 
+        to next desired digit
+
+-   Now to make this a clock of clocks, we teach our view controller to
+    determine the current time in 24-hour format and then to tell each
+    of the digit matrices to slew to it’s respective digit of the 24
+    hour time.
+
+This all make sense?
+
 #### Copyright
 
 The code and graphics for this project are © 2014, Iron Sheep
