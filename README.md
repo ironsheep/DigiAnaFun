@@ -32,7 +32,7 @@ with Objective-C and Xcode!
 
 <http://vimeo.com/47249375>
 
-### My Minds Eye:
+### My Mind’s Eye:
 
 It’s a well behaved collection of analog clocks! However...
 
