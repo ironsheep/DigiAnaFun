@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" initialViewController="MoJ-dg-ZMK">
+    <dependencies>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Qat-Ru-4Oq">
+            <objects>
+                <viewController id="MoJ-dg-ZMK" customClass="TADViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="w5M-4r-G1A" userLabel="View - Main Screen">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="QoM-v8-zPY" userLabel="View - Digit" customClass="TADDigit_AnalogClocksController">
+                                <rect key="frame" x="8" y="60" width="133" height="200"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="woc-8j-hax" userLabel="View - Digit" customClass="TADDigit_AnalogClocksController">
+                                <rect key="frame" x="144" y="60" width="133" height="200"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="8yf-e6-lfl" userLabel="View - Digit" customClass="TADDigit_AnalogClocksController">
+                                <rect key="frame" x="292" y="60" width="133" height="200"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="NcP-Ys-QG3" userLabel="View - Digit" customClass="TADDigit_AnalogClocksController">
+                                <rect key="frame" x="428" y="60" width="133" height="200"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="8MK-cK-mAM">
+                                <rect key="frame" x="471" y="15" width="79" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="onTintColor" red="0.80000001192092896" green="1" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="onSwManualControlToggled:" destination="MoJ-dg-ZMK" eventType="valueChanged" id="HpJ-F4-bgY"/>
+                                </connections>
+                            </switch>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clock" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qZa-dU-XGk">
+                                <rect key="frame" x="351" y="18" width="45" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let me!" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GlM-kO-j6R">
+                                <rect key="frame" x="172" y="18" width="73" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" id="7s5-2K-LfW" userLabel="View - Up/Down Panel">
+                                <rect key="frame" x="0.0" y="280" width="568" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" continuous="NO" autorepeat="NO" wraps="YES" maximumValue="9" id="F7m-SZ-fsj" userLabel="Stepper - HourTens">
+                                        <rect key="frame" x="30" y="0.0" width="94" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <connections>
+                                            <action selector="onNudHourTensValueChanged:" destination="MoJ-dg-ZMK" eventType="valueChanged" id="kxa-HE-r9P"/>
+                                        </connections>
+                                    </stepper>
+                                    <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" continuous="NO" autorepeat="NO" wraps="YES" maximumValue="9" id="GV0-Bt-2iF" userLabel="Stepper - HourOnes">
+                                        <rect key="frame" x="166" y="0.0" width="94" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <connections>
+                                            <action selector="onNudHourOnesValueChanged:" destination="MoJ-dg-ZMK" eventType="valueChanged" id="9MT-ci-jgf"/>
+                                        </connections>
+                                    </stepper>
+                                    <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" continuous="NO" autorepeat="NO" wraps="YES" maximumValue="9" id="kx3-GH-v7w" userLabel="Stepper - MinuteTens">
+                                        <rect key="frame" x="308" y="0.0" width="94" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <connections>
+                                            <action selector="onNudMinuteTensValueChanged:" destination="MoJ-dg-ZMK" eventType="valueChanged" id="RKh-f1-Xau"/>
+                                        </connections>
+                                    </stepper>
+                                    <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" continuous="NO" autorepeat="NO" wraps="YES" maximumValue="9" id="dSy-Rw-mbX" userLabel="Stepper - MinuteOnes">
+                                        <rect key="frame" x="444" y="0.0" width="94" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <connections>
+                                            <action selector="onNudMinuteOnesValueChanged:" destination="MoJ-dg-ZMK" eventType="valueChanged" id="TvN-3R-95x"/>
+                                        </connections>
+                                    </stepper>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="nudHourOnes" destination="GV0-Bt-2iF" id="JOG-LP-5e8"/>
+                        <outlet property="nudHourTens" destination="F7m-SZ-fsj" id="Mek-Pp-1VN"/>
+                        <outlet property="nudMinuteOnes" destination="dSy-Rw-mbX" id="Fvp-FF-iP4"/>
+                        <outlet property="nudMinuteTens" destination="kx3-GH-v7w" id="KRg-Ly-lif"/>
+                        <outlet property="swManualControl" destination="8MK-cK-mAM" id="GRP-RO-zdE"/>
+                        <outlet property="vwControlPanel" destination="7s5-2K-LfW" id="1HP-l1-E4a"/>
+                        <outlet property="vwHourOnes" destination="woc-8j-hax" id="Rzd-ig-7bA"/>
+                        <outlet property="vwHourTens" destination="QoM-v8-zPY" id="X9V-Ij-Mnx"/>
+                        <outlet property="vwMinuteOnes" destination="NcP-Ys-QG3" id="xT1-jI-WQv"/>
+                        <outlet property="vwMinuteTens" destination="8yf-e6-lfl" id="Rlb-Lj-XES"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zme-A5-17t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="349" y="259"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
