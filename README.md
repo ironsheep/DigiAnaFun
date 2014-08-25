@@ -73,6 +73,11 @@ It’s a well behaved collection of analog clocks! However...
     of the digit matrices to slew to it’s respective digit of the 24
     hour time.
 
+-   *Of course, when you see the app in action, you’ll notice that I
+    also added some controls so we can have fun making the digits move
+    because after seeing them the first time who doesn’t want to make
+    them move?!!!*
+
 This all make sense?
 
 #### Copyright
