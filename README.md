@@ -69,9 +69,9 @@ It’s a well behaved collection of analog clocks! However...
         to next desired digit
 
 -   Now to make this a clock of clocks, we teach our view controller to
-    determine the current time in 24-hour format and then to tell each
-    of the digit matrices to slew to it’s respective digit of the 24
-    hour time.
+    determine the current time in 24-hour format and then tell each of
+    the digit matrices to slew to it’s respective digit of the 24 hour
+    time.
 
 -   *Of course, when you see the app in action, you’ll notice that I
     also added some controls so we can have fun making the digits move
@@ -87,7 +87,7 @@ Productions, LLC
 
 #### License
 
-This source is distributed under the [MIT License][]
+This source is distributed under the [GNU v3 License][]
 
   [icon template]: http://appicontemplate.com/
-  [MIT License]: https://github.com/ironsheep/DigiAnaFun/blob/master/LICENSE
+  [GNU v3 License]: https://github.com/ironsheep/DigiAnaFun/blob/master/LICENSE
