@@ -209,7 +209,7 @@ const NSInteger kClockHeightInPix = 66;
     NSInteger nSeconds = [self secondsFromTimeString:strTime];
 
     NSDate *dtStartingTime = [NSDate date];
-    NSUInteger unitFlags = NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit | NSHourCalendarUnit | NSMinuteCalendarUnit |NSSecondCalendarUnit;
+    NSUInteger unitFlags = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute |NSCalendarUnitSecond;
     NSCalendar *calendar = [NSCalendar currentCalendar];
     calendar.timeZone = [NSTimeZone localTimeZone];
     NSDateComponents *comps = [calendar components:unitFlags fromDate:dtStartingTime];

@@ -121,25 +121,25 @@
         CGRect rctHandFrame = CGRectMake(0, 0, 66, 66);
 
         UIImageView *imgClockFace = [[UIImageView alloc] initWithFrame:rctHandFrame];
-        imgClockFace.image = UIImageFromBundlePngImageNamed(@"clkFace002");
+        imgClockFace.image = [UIImage imageNamed:@"clkFace002"];
         [self addSubview:imgClockFace];
 
         self.ivHourHand = [[UIImageView alloc] initWithFrame:rctHandFrame];
         //_ivHourHand.backgroundColor = [UIColor greenColor];
-        _ivHourHand.image = UIImageFromBundlePngImageNamed(@"sqHourHand"); // at 6PM
+        _ivHourHand.image = [UIImage imageNamed:@"sqHourHand"]; // at 6PM
         [self addSubview:_ivHourHand];
 
         self.ivMinuteHand = [[UIImageView alloc] initWithFrame:rctHandFrame];
-        _ivMinuteHand.image = UIImageFromBundlePngImageNamed(@"sqMinuteHand");  // at 15 After
+        _ivMinuteHand.image = [UIImage imageNamed:@"sqMinuteHand"];  // at 15 After
         [self addSubview:_ivMinuteHand];
 
         self.ivSecondHand = [[UIImageView alloc] initWithFrame:rctHandFrame];
-        _ivSecondHand.image = UIImageFromBundlePngImageNamed(@"sqSecondHand");  // at 15 After
+        _ivSecondHand.image = [UIImage imageNamed:@"sqSecondHand"];  // at 15 After
         [self addSubview:_ivSecondHand];
 
         // adjust starting time to reflect initial position of our hands...
         NSDate *dtStartingTime = [NSDate date];
-        NSUInteger unitFlags = NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit | NSHourCalendarUnit | NSMinuteCalendarUnit |NSSecondCalendarUnit;
+        NSUInteger unitFlags = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute |NSCalendarUnitSecond;
         NSCalendar *calendar = [NSCalendar currentCalendar];
         calendar.timeZone = [NSTimeZone localTimeZone];
         NSDateComponents *comps = [calendar components:unitFlags fromDate:dtStartingTime];
@@ -163,25 +163,25 @@
         CGRect rctHandFrame = CGRectMake(0, 0, 66, 66);
 
         UIImageView *imgClockFace = [[UIImageView alloc] initWithFrame:rctHandFrame];
-        imgClockFace.image = UIImageFromBundlePngImageNamed(@"clkFace001");
+        imgClockFace.image = [UIImage imageNamed:@"clkFace001"];
         [self addSubview:imgClockFace];
 
         self.ivHourHand = [[UIImageView alloc] initWithFrame:rctHandFrame];
         //_ivHourHand.backgroundColor = [UIColor greenColor];
-        _ivHourHand.image = UIImageFromBundlePngImageNamed(@"sqHourHand"); // at 6PM
+        _ivHourHand.image = [UIImage imageNamed:@"sqHourHand"]; // at 6PM
         [self addSubview:_ivHourHand];
 
         self.ivMinuteHand = [[UIImageView alloc] initWithFrame:rctHandFrame];
-        _ivMinuteHand.image = UIImageFromBundlePngImageNamed(@"sqMinuteHand");  // at 15 After
+        _ivMinuteHand.image = [UIImage imageNamed:@"sqMinuteHand"];  // at 15 After
         [self addSubview:_ivMinuteHand];
 
         self.ivSecondHand = [[UIImageView alloc] initWithFrame:rctHandFrame];
-        _ivSecondHand.image = UIImageFromBundlePngImageNamed(@"sqSecondHand");  // at 15 After
+        _ivSecondHand.image = [UIImage imageNamed:@"sqSecondHand"];  // at 15 After
         [self addSubview:_ivSecondHand];
 
         // adjust starting time to reflect initial position of our hands...
         NSDate *dtStartingTime = [NSDate date];
-        NSUInteger unitFlags = NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit | NSHourCalendarUnit | NSMinuteCalendarUnit |NSSecondCalendarUnit;
+        NSUInteger unitFlags = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute |NSCalendarUnitSecond;
         NSCalendar *calendar = [NSCalendar currentCalendar];
         calendar.timeZone = [NSTimeZone localTimeZone];
         NSDateComponents *comps = [calendar components:unitFlags fromDate:dtStartingTime];
@@ -239,8 +239,8 @@
     int degreesPerHour   = 30;
     float degreesPerMinute = 0.5;
 
-    int hours = self.targetHours - self.currHours;
-    int minutes = self.targetMinutes - self.currMinutes;
+    long hours = self.targetHours - self.currHours;
+    long minutes = self.targetMinutes - self.currMinutes;
 
     int hoursFor12HourClock = hours % 12;
 
@@ -263,7 +263,7 @@
 {
     int degreesPerMinute = 6;
 
-    int minutes = self.targetMinutes - self.currMinutes;
+    long minutes = self.targetMinutes - self.currMinutes;
     double minutesAngle = degreesToRadians(minutes * degreesPerMinute);
 
     self.ivMinuteHand.transform = CGAffineTransformRotate(CGAffineTransformIdentity, minutesAngle);
@@ -274,7 +274,7 @@
 {
     int degreesPerSecond = 6;
 
-    int seconds = self.targetSeconds - self.currSeconds;
+    long seconds = self.targetSeconds - self.currSeconds;
     double secondsAngle = degreesToRadians(seconds * degreesPerSecond);
 
     self.ivSecondHand.transform = CGAffineTransformRotate(CGAffineTransformIdentity, secondsAngle);

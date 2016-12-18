@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "iTunesArtwork.png",
+      "filename" : "clkFace002.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "iTunesArtwork@2x.png",
+      "filename" : "clkFace002@2x.png",
       "scale" : "2x"
     },
     {

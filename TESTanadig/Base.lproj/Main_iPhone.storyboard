@@ -1,103 +1,158 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" initialViewController="MoJ-dg-ZMK">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="MoJ-dg-ZMK">
+    <device id="retina5_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <deployment defaultVersion="1552" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="Qat-Ru-4Oq">
             <objects>
                 <viewController id="MoJ-dg-ZMK" customClass="TADViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Uf-1x-hXJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="FH3-Jx-aZx"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="w5M-4r-G1A" userLabel="View - Main Screen">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" id="QoM-v8-zPY" userLabel="View - Digit" customClass="TADDigit_AnalogClocksController">
-                                <rect key="frame" x="8" y="60" width="133" height="200"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QoM-v8-zPY" userLabel="View - Digit" customClass="TADDigit_AnalogClocksController">
+                                <rect key="frame" x="0.0" y="50" width="184" height="306"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" id="woc-8j-hax" userLabel="View - Digit" customClass="TADDigit_AnalogClocksController">
-                                <rect key="frame" x="144" y="60" width="133" height="200"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="woc-8j-hax" userLabel="View - Digit" customClass="TADDigit_AnalogClocksController">
+                                <rect key="frame" x="184" y="50" width="184" height="306"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" id="8yf-e6-lfl" userLabel="View - Digit" customClass="TADDigit_AnalogClocksController">
-                                <rect key="frame" x="292" y="60" width="133" height="200"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8yf-e6-lfl" userLabel="View - Digit" customClass="TADDigit_AnalogClocksController">
+                                <rect key="frame" x="368" y="50" width="184" height="306"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" id="NcP-Ys-QG3" userLabel="View - Digit" customClass="TADDigit_AnalogClocksController">
-                                <rect key="frame" x="428" y="60" width="133" height="200"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NcP-Ys-QG3" userLabel="View - Digit" customClass="TADDigit_AnalogClocksController">
+                                <rect key="frame" x="552" y="50" width="184" height="306"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="8MK-cK-mAM">
-                                <rect key="frame" x="471" y="15" width="79" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="onTintColor" red="0.80000001192092896" green="1" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8MK-cK-mAM">
+                                <rect key="frame" x="639" y="15" width="79" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="EXW-dU-RLB"/>
+                                    <constraint firstAttribute="width" constant="77" id="cMI-b6-lvO"/>
+                                </constraints>
+                                <color key="onTintColor" red="0.80000001192092896" green="1" blue="0.40000000596046448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="onSwManualControlToggled:" destination="MoJ-dg-ZMK" eventType="valueChanged" id="HpJ-F4-bgY"/>
                                 </connections>
                             </switch>
-                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clock" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qZa-dU-XGk">
-                                <rect key="frame" x="351" y="18" width="45" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let me!" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GlM-kO-j6R">
+                                <rect key="frame" x="172" y="18" width="73" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="kkB-oe-7Tf"/>
+                                    <constraint firstAttribute="width" constant="73" id="sfm-mN-X2y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clock" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qZa-dU-XGk">
+                                <rect key="frame" x="514" y="18" width="45" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="uEe-O5-DEv"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let me!" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GlM-kO-j6R">
-                                <rect key="frame" x="172" y="18" width="73" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <view contentMode="scaleToFill" id="7s5-2K-LfW" userLabel="View - Up/Down Panel">
-                                <rect key="frame" x="0.0" y="280" width="568" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7s5-2K-LfW" userLabel="View - Up/Down Panel">
+                                <rect key="frame" x="0.0" y="374" width="736" height="40"/>
                                 <subviews>
-                                    <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" continuous="NO" autorepeat="NO" wraps="YES" maximumValue="9" id="F7m-SZ-fsj" userLabel="Stepper - HourTens">
-                                        <rect key="frame" x="30" y="0.0" width="94" height="33"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" continuous="NO" autorepeat="NO" wraps="YES" maximumValue="9" translatesAutoresizingMaskIntoConstraints="NO" id="F7m-SZ-fsj" userLabel="Stepper - HourTens">
+                                        <rect key="frame" x="45" y="3.6666666666666856" width="94" height="27"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="33" id="CN2-Yj-ns3"/>
+                                            <constraint firstAttribute="width" constant="94" id="dZU-zQ-oKe"/>
+                                        </constraints>
                                         <connections>
                                             <action selector="onNudHourTensValueChanged:" destination="MoJ-dg-ZMK" eventType="valueChanged" id="kxa-HE-r9P"/>
                                         </connections>
                                     </stepper>
-                                    <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" continuous="NO" autorepeat="NO" wraps="YES" maximumValue="9" id="GV0-Bt-2iF" userLabel="Stepper - HourOnes">
-                                        <rect key="frame" x="166" y="0.0" width="94" height="33"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" continuous="NO" autorepeat="NO" wraps="YES" maximumValue="9" translatesAutoresizingMaskIntoConstraints="NO" id="GV0-Bt-2iF" userLabel="Stepper - HourOnes">
+                                        <rect key="frame" x="229" y="3.6666666666666856" width="94" height="27"/>
                                         <connections>
                                             <action selector="onNudHourOnesValueChanged:" destination="MoJ-dg-ZMK" eventType="valueChanged" id="9MT-ci-jgf"/>
                                         </connections>
                                     </stepper>
-                                    <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" continuous="NO" autorepeat="NO" wraps="YES" maximumValue="9" id="kx3-GH-v7w" userLabel="Stepper - MinuteTens">
-                                        <rect key="frame" x="308" y="0.0" width="94" height="33"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" continuous="NO" autorepeat="NO" wraps="YES" maximumValue="9" translatesAutoresizingMaskIntoConstraints="NO" id="kx3-GH-v7w" userLabel="Stepper - MinuteTens">
+                                        <rect key="frame" x="413" y="3.6666666666666856" width="94" height="27"/>
                                         <connections>
                                             <action selector="onNudMinuteTensValueChanged:" destination="MoJ-dg-ZMK" eventType="valueChanged" id="RKh-f1-Xau"/>
                                         </connections>
                                     </stepper>
-                                    <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" continuous="NO" autorepeat="NO" wraps="YES" maximumValue="9" id="dSy-Rw-mbX" userLabel="Stepper - MinuteOnes">
-                                        <rect key="frame" x="444" y="0.0" width="94" height="33"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" continuous="NO" autorepeat="NO" wraps="YES" maximumValue="9" translatesAutoresizingMaskIntoConstraints="NO" id="dSy-Rw-mbX" userLabel="Stepper - MinuteOnes">
+                                        <rect key="frame" x="597" y="3.6666666666666856" width="94" height="27"/>
                                         <connections>
                                             <action selector="onNudMinuteOnesValueChanged:" destination="MoJ-dg-ZMK" eventType="valueChanged" id="TvN-3R-95x"/>
                                         </connections>
                                     </stepper>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="kx3-GH-v7w" firstAttribute="width" secondItem="F7m-SZ-fsj" secondAttribute="width" id="3SM-46-dPD"/>
+                                    <constraint firstItem="dSy-Rw-mbX" firstAttribute="centerY" secondItem="7s5-2K-LfW" secondAttribute="centerY" id="6VV-jY-bgW"/>
+                                    <constraint firstItem="kx3-GH-v7w" firstAttribute="centerY" secondItem="7s5-2K-LfW" secondAttribute="centerY" id="6jx-vi-dke"/>
+                                    <constraint firstItem="GV0-Bt-2iF" firstAttribute="centerY" secondItem="7s5-2K-LfW" secondAttribute="centerY" id="Cgn-Th-Sb5"/>
+                                    <constraint firstItem="GV0-Bt-2iF" firstAttribute="centerX" secondItem="7s5-2K-LfW" secondAttribute="centerX" multiplier="3/4" id="DXs-Oc-azQ"/>
+                                    <constraint firstItem="kx3-GH-v7w" firstAttribute="centerX" secondItem="7s5-2K-LfW" secondAttribute="centerX" multiplier="5/4" id="DeP-71-JdO"/>
+                                    <constraint firstItem="dSy-Rw-mbX" firstAttribute="width" secondItem="F7m-SZ-fsj" secondAttribute="width" id="E8G-oy-NzP"/>
+                                    <constraint firstAttribute="height" constant="40" id="TC8-Wb-5BW"/>
+                                    <constraint firstItem="kx3-GH-v7w" firstAttribute="height" secondItem="F7m-SZ-fsj" secondAttribute="height" id="YMt-xy-NKX"/>
+                                    <constraint firstItem="GV0-Bt-2iF" firstAttribute="width" secondItem="F7m-SZ-fsj" secondAttribute="width" id="an9-Wm-cO2"/>
+                                    <constraint firstItem="F7m-SZ-fsj" firstAttribute="centerY" secondItem="7s5-2K-LfW" secondAttribute="centerY" id="bs8-sT-Fnc"/>
+                                    <constraint firstItem="F7m-SZ-fsj" firstAttribute="centerX" secondItem="7s5-2K-LfW" secondAttribute="centerX" multiplier="1/4" id="foq-mA-E3S"/>
+                                    <constraint firstItem="dSy-Rw-mbX" firstAttribute="centerX" secondItem="7s5-2K-LfW" secondAttribute="centerX" multiplier="7/4" id="hja-mO-PD1"/>
+                                    <constraint firstItem="dSy-Rw-mbX" firstAttribute="height" secondItem="F7m-SZ-fsj" secondAttribute="height" id="oce-IJ-jvG"/>
+                                    <constraint firstItem="GV0-Bt-2iF" firstAttribute="height" secondItem="F7m-SZ-fsj" secondAttribute="height" id="sdc-hM-9Qv"/>
+                                </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="woc-8j-hax" firstAttribute="height" secondItem="QoM-v8-zPY" secondAttribute="height" id="5dQ-N0-rmO"/>
+                            <constraint firstItem="woc-8j-hax" firstAttribute="width" secondItem="QoM-v8-zPY" secondAttribute="width" id="84I-N4-ven"/>
+                            <constraint firstItem="FH3-Jx-aZx" firstAttribute="top" secondItem="7s5-2K-LfW" secondAttribute="bottom" id="8rb-R3-Oxd"/>
+                            <constraint firstItem="NcP-Ys-QG3" firstAttribute="width" secondItem="QoM-v8-zPY" secondAttribute="width" id="A70-HN-LIv"/>
+                            <constraint firstItem="8MK-cK-mAM" firstAttribute="top" secondItem="3Uf-1x-hXJ" secondAttribute="bottom" constant="15" id="BQK-1q-Klq"/>
+                            <constraint firstItem="NcP-Ys-QG3" firstAttribute="top" secondItem="QoM-v8-zPY" secondAttribute="top" id="Bg9-kX-iyl"/>
+                            <constraint firstItem="8yf-e6-lfl" firstAttribute="width" secondItem="QoM-v8-zPY" secondAttribute="width" id="FqV-Sj-fvU"/>
+                            <constraint firstItem="woc-8j-hax" firstAttribute="centerX" secondItem="w5M-4r-G1A" secondAttribute="centerX" multiplier="3/4" id="GYx-mK-8ca"/>
+                            <constraint firstItem="8MK-cK-mAM" firstAttribute="trailing" secondItem="w5M-4r-G1A" secondAttribute="trailingMargin" id="N2e-NA-KLU"/>
+                            <constraint firstItem="QoM-v8-zPY" firstAttribute="height" secondItem="w5M-4r-G1A" secondAttribute="height" multiplier="0.74" id="OHg-Fk-DIP"/>
+                            <constraint firstItem="8MK-cK-mAM" firstAttribute="leading" secondItem="qZa-dU-XGk" secondAttribute="trailing" constant="80" id="QMH-tU-e4b"/>
+                            <constraint firstItem="GlM-kO-j6R" firstAttribute="centerY" secondItem="qZa-dU-XGk" secondAttribute="centerY" id="TE2-tX-dlW"/>
+                            <constraint firstItem="qZa-dU-XGk" firstAttribute="centerY" secondItem="8MK-cK-mAM" secondAttribute="centerY" id="aQE-Sx-ohr"/>
+                            <constraint firstItem="8yf-e6-lfl" firstAttribute="top" secondItem="QoM-v8-zPY" secondAttribute="top" id="akO-C3-NCj"/>
+                            <constraint firstItem="NcP-Ys-QG3" firstAttribute="centerX" secondItem="w5M-4r-G1A" secondAttribute="centerX" multiplier="7/4" id="cYQ-MK-NWH"/>
+                            <constraint firstItem="woc-8j-hax" firstAttribute="top" secondItem="QoM-v8-zPY" secondAttribute="top" id="g7a-TZ-78d"/>
+                            <constraint firstItem="QoM-v8-zPY" firstAttribute="top" secondItem="3Uf-1x-hXJ" secondAttribute="bottom" constant="50" id="gon-Gj-sHC"/>
+                            <constraint firstItem="GlM-kO-j6R" firstAttribute="leading" secondItem="w5M-4r-G1A" secondAttribute="leadingMargin" constant="152" id="gpH-St-xHe"/>
+                            <constraint firstAttribute="trailing" secondItem="7s5-2K-LfW" secondAttribute="trailing" id="juS-XD-R2U"/>
+                            <constraint firstItem="QoM-v8-zPY" firstAttribute="centerX" secondItem="w5M-4r-G1A" secondAttribute="centerX" multiplier="1/4" id="mkh-iH-u4f"/>
+                            <constraint firstItem="QoM-v8-zPY" firstAttribute="width" secondItem="w5M-4r-G1A" secondAttribute="width" multiplier="0.25" id="pG2-Qu-Od5"/>
+                            <constraint firstItem="7s5-2K-LfW" firstAttribute="leading" secondItem="w5M-4r-G1A" secondAttribute="leading" id="rBL-hd-U8w"/>
+                            <constraint firstItem="8yf-e6-lfl" firstAttribute="height" secondItem="QoM-v8-zPY" secondAttribute="height" id="uFo-O5-ikB"/>
+                            <constraint firstItem="8yf-e6-lfl" firstAttribute="centerX" secondItem="w5M-4r-G1A" secondAttribute="centerX" multiplier="5/4" id="xRO-6x-P8U"/>
+                            <constraint firstItem="NcP-Ys-QG3" firstAttribute="height" secondItem="QoM-v8-zPY" secondAttribute="height" id="zXu-XW-2Cx"/>
+                        </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="nudHourOnes" destination="GV0-Bt-2iF" id="JOG-LP-5e8"/>
                         <outlet property="nudHourTens" destination="F7m-SZ-fsj" id="Mek-Pp-1VN"/>
@@ -118,7 +173,7 @@
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedOrientationMetrics key="orientation" orientation="landscapeRight"/>
+        <simulatedScreenMetrics key="destination" type="retina5_5.fullscreen"/>
     </simulatedMetricsContainer>
 </document>

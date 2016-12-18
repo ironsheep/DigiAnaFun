@@ -24,21 +24,8 @@
 		DC311AFC18668B65001BCDB2 /* TESTanadigTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC311AFB18668B65001BCDB2 /* TESTanadigTests.m */; };
 		DC311B0718669DC0001BCDB2 /* TADAnalogClock.m in Sources */ = {isa = PBXBuildFile; fileRef = DC311B0618669DC0001BCDB2 /* TADAnalogClock.m */; };
 		DC311B0A18669DE8001BCDB2 /* TADDigit-AnalogClocksController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC311B0918669DE8001BCDB2 /* TADDigit-AnalogClocksController.m */; };
-		DC311B101866A6F8001BCDB2 /* clkHourHand.png in Resources */ = {isa = PBXBuildFile; fileRef = DC311B0C1866A6F8001BCDB2 /* clkHourHand.png */; };
-		DC311B111866A6F8001BCDB2 /* clkHourHand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC311B0D1866A6F8001BCDB2 /* clkHourHand@2x.png */; };
-		DC311B121866A6F8001BCDB2 /* clkMinuteHand.png in Resources */ = {isa = PBXBuildFile; fileRef = DC311B0E1866A6F8001BCDB2 /* clkMinuteHand.png */; };
-		DC311B131866A6F8001BCDB2 /* clkMinuteHand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC311B0F1866A6F8001BCDB2 /* clkMinuteHand@2x.png */; };
-		DC311B181866AD19001BCDB2 /* sqHourHand.png in Resources */ = {isa = PBXBuildFile; fileRef = DC311B141866AD19001BCDB2 /* sqHourHand.png */; };
-		DC311B191866AD19001BCDB2 /* sqHourHand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC311B151866AD19001BCDB2 /* sqHourHand@2x.png */; };
-		DC311B1A1866AD19001BCDB2 /* sqMinuteHand.png in Resources */ = {isa = PBXBuildFile; fileRef = DC311B161866AD19001BCDB2 /* sqMinuteHand.png */; };
-		DC311B1B1866AD19001BCDB2 /* sqMinuteHand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC311B171866AD19001BCDB2 /* sqMinuteHand@2x.png */; };
 		DC311B1F1866CD2E001BCDB2 /* UIView+Animate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC311B1E1866CD2E001BCDB2 /* UIView+Animate.m */; };
-		DC311B221866DC08001BCDB2 /* clkFace001.png in Resources */ = {isa = PBXBuildFile; fileRef = DC311B201866DC08001BCDB2 /* clkFace001.png */; };
-		DC311B231866DC08001BCDB2 /* clkFace001@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC311B211866DC08001BCDB2 /* clkFace001@2x.png */; };
-		DC311B261866DEC7001BCDB2 /* clkFace002.png in Resources */ = {isa = PBXBuildFile; fileRef = DC311B241866DEC7001BCDB2 /* clkFace002.png */; };
-		DC311B271866DEC7001BCDB2 /* clkFace002@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC311B251866DEC7001BCDB2 /* clkFace002@2x.png */; };
-		DC57D9271919D7A300B93844 /* sqSecondHand.png in Resources */ = {isa = PBXBuildFile; fileRef = DC57D9251919D7A300B93844 /* sqSecondHand.png */; };
-		DC57D9281919D7A300B93844 /* sqSecondHand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC57D9261919D7A300B93844 /* sqSecondHand@2x.png */; };
+		DC3B749A1E062D1E00DD0A5B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3B74991E062D1E00DD0A5B /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,22 +63,9 @@
 		DC311B0618669DC0001BCDB2 /* TADAnalogClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADAnalogClock.m; sourceTree = "<group>"; };
 		DC311B0818669DE8001BCDB2 /* TADDigit-AnalogClocksController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TADDigit-AnalogClocksController.h"; sourceTree = "<group>"; };
 		DC311B0918669DE8001BCDB2 /* TADDigit-AnalogClocksController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TADDigit-AnalogClocksController.m"; sourceTree = "<group>"; };
-		DC311B0C1866A6F8001BCDB2 /* clkHourHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clkHourHand.png; sourceTree = "<group>"; };
-		DC311B0D1866A6F8001BCDB2 /* clkHourHand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clkHourHand@2x.png"; sourceTree = "<group>"; };
-		DC311B0E1866A6F8001BCDB2 /* clkMinuteHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clkMinuteHand.png; sourceTree = "<group>"; };
-		DC311B0F1866A6F8001BCDB2 /* clkMinuteHand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clkMinuteHand@2x.png"; sourceTree = "<group>"; };
-		DC311B141866AD19001BCDB2 /* sqHourHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sqHourHand.png; sourceTree = "<group>"; };
-		DC311B151866AD19001BCDB2 /* sqHourHand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sqHourHand@2x.png"; sourceTree = "<group>"; };
-		DC311B161866AD19001BCDB2 /* sqMinuteHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sqMinuteHand.png; sourceTree = "<group>"; };
-		DC311B171866AD19001BCDB2 /* sqMinuteHand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sqMinuteHand@2x.png"; sourceTree = "<group>"; };
 		DC311B1D1866CD2E001BCDB2 /* UIView+Animate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animate.h"; sourceTree = "<group>"; };
 		DC311B1E1866CD2E001BCDB2 /* UIView+Animate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animate.m"; sourceTree = "<group>"; };
-		DC311B201866DC08001BCDB2 /* clkFace001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clkFace001.png; sourceTree = "<group>"; };
-		DC311B211866DC08001BCDB2 /* clkFace001@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clkFace001@2x.png"; sourceTree = "<group>"; };
-		DC311B241866DEC7001BCDB2 /* clkFace002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clkFace002.png; sourceTree = "<group>"; };
-		DC311B251866DEC7001BCDB2 /* clkFace002@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clkFace002@2x.png"; sourceTree = "<group>"; };
-		DC57D9251919D7A300B93844 /* sqSecondHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sqSecondHand.png; sourceTree = "<group>"; };
-		DC57D9261919D7A300B93844 /* sqSecondHand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sqSecondHand@2x.png"; sourceTree = "<group>"; };
+		DC3B74991E062D1E00DD0A5B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +95,7 @@
 		DC311AC118668B65001BCDB2 = {
 			isa = PBXGroup;
 			children = (
+				DC3B74991E062D1E00DD0A5B /* Default-568h@2x.png */,
 				DC311AD318668B65001BCDB2 /* TESTanadig */,
 				DC311AF518668B65001BCDB2 /* TESTanadigTests */,
 				DC311ACC18668B65001BCDB2 /* Frameworks */,
@@ -171,7 +146,6 @@
 		DC311AD418668B65001BCDB2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DC311B0B1866A6F8001BCDB2 /* Images */,
 				DC311AD518668B65001BCDB2 /* TESTanadig-Info.plist */,
 				DC311AD618668B65001BCDB2 /* InfoPlist.strings */,
 				DC311AD918668B65001BCDB2 /* main.m */,
@@ -196,27 +170,6 @@
 				DC311AF818668B65001BCDB2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DC311B0B1866A6F8001BCDB2 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				DC57D9251919D7A300B93844 /* sqSecondHand.png */,
-				DC57D9261919D7A300B93844 /* sqSecondHand@2x.png */,
-				DC311B201866DC08001BCDB2 /* clkFace001.png */,
-				DC311B211866DC08001BCDB2 /* clkFace001@2x.png */,
-				DC311B241866DEC7001BCDB2 /* clkFace002.png */,
-				DC311B251866DEC7001BCDB2 /* clkFace002@2x.png */,
-				DC311B0C1866A6F8001BCDB2 /* clkHourHand.png */,
-				DC311B0D1866A6F8001BCDB2 /* clkHourHand@2x.png */,
-				DC311B0E1866A6F8001BCDB2 /* clkMinuteHand.png */,
-				DC311B0F1866A6F8001BCDB2 /* clkMinuteHand@2x.png */,
-				DC311B141866AD19001BCDB2 /* sqHourHand.png */,
-				DC311B151866AD19001BCDB2 /* sqHourHand@2x.png */,
-				DC311B161866AD19001BCDB2 /* sqMinuteHand.png */,
-				DC311B171866AD19001BCDB2 /* sqMinuteHand@2x.png */,
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 		DC311B1C1866BA4E001BCDB2 /* Storyboard */ = {
@@ -273,7 +226,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TAD;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Iron Sheep Productions, LLC";
 				TargetAttributes = {
 					DC311AC918668B65001BCDB2 = {
@@ -308,24 +261,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC57D9271919D7A300B93844 /* sqSecondHand.png in Resources */,
-				DC311B181866AD19001BCDB2 /* sqHourHand.png in Resources */,
-				DC311B1B1866AD19001BCDB2 /* sqMinuteHand@2x.png in Resources */,
-				DC311B131866A6F8001BCDB2 /* clkMinuteHand@2x.png in Resources */,
-				DC311B221866DC08001BCDB2 /* clkFace001.png in Resources */,
-				DC57D9281919D7A300B93844 /* sqSecondHand@2x.png in Resources */,
 				DC311AE418668B65001BCDB2 /* Main_iPad.storyboard in Resources */,
-				DC311B261866DEC7001BCDB2 /* clkFace002.png in Resources */,
 				DC311AE918668B65001BCDB2 /* Images.xcassets in Resources */,
-				DC311B1A1866AD19001BCDB2 /* sqMinuteHand.png in Resources */,
-				DC311B111866A6F8001BCDB2 /* clkHourHand@2x.png in Resources */,
-				DC311B271866DEC7001BCDB2 /* clkFace002@2x.png in Resources */,
-				DC311B121866A6F8001BCDB2 /* clkMinuteHand.png in Resources */,
 				DC311AE118668B65001BCDB2 /* Main_iPhone.storyboard in Resources */,
+				DC3B749A1E062D1E00DD0A5B /* Default-568h@2x.png in Resources */,
 				DC311AD818668B65001BCDB2 /* InfoPlist.strings in Resources */,
-				DC311B101866A6F8001BCDB2 /* clkHourHand.png in Resources */,
-				DC311B231866DC08001BCDB2 /* clkFace001@2x.png in Resources */,
-				DC311B191866AD19001BCDB2 /* sqHourHand@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,13 +360,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -439,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,20 +405,25 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -483,12 +434,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TESTanadig/TESTanadig-Prefix.pch";
 				INFOPLIST_FILE = "TESTanadig/TESTanadig-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "biz.ironsheep.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -498,12 +449,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TESTanadig/TESTanadig-Prefix.pch";
 				INFOPLIST_FILE = "TESTanadig/TESTanadig-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "biz.ironsheep.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -525,6 +476,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "TESTanadigTests/TESTanadigTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "biz.ironsheep.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -543,6 +495,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TESTanadig/TESTanadig-Prefix.pch";
 				INFOPLIST_FILE = "TESTanadigTests/TESTanadigTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "biz.ironsheep.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

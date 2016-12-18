@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "iTunesArtwork.png",
+      "filename" : "clkHourHand.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "iTunesArtwork@2x.png",
+      "filename" : "clkHourHand@2x.png",
       "scale" : "2x"
     },
     {
